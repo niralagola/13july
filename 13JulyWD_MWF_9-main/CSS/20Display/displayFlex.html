@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 1200px;
+        }
+        .row
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .col-100{
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .col-100 h1, p{ 
+            text-align: center;
+        }
+
+        .col-100 h1 span{
+            color:tomato;
+        }
+        .col-100 .test-heading{
+            margin: 35px 20px ;
+        }
+
+        .col-100 .test-heading p{
+            text-align:center;
+            padding: 25px 50px;
+            color: grey;
+        }
+
+        .icon{
+            width: 80%;
+            text-align: center;
+            margin: auto;
+            
+            padding: 40px;
+        }
+
+        .icon i{
+            flex-wrap: wrap;
+            font-size: 35px;
+            padding: 15px  20px;
+            background-color: orange;
+            color: white;
+            border-radius: 50px;
+            margin: 10px;
+        }
+        body{
+            background-color:#ccc;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-100">
+                    <div class="test-heading">
+                        <h1>OUR LATEST TECHNOLIGY& <br>
+                        <span>INTERESTING FEATURES</span> </h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ex aut adipisci voluptates neque saepe temporibus? Neque ratione, delectus enim voluptatibus, tenetur animi excepturi laboriosam rerum aliquam repudiandae perspiciatis eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestias?</P>
+                    </div>
+
+                    <div class="icon">
+                        <i class="fa-sharp fa-solid fa-droplet"></i>
+                        <i class="fa-sharp fa-solid fa-keyboard"></i>
+                        <i class="fa-solid fa-notes-medical"></i>
+                        <i class="fa-solid fa-computer"></i>
+                        <i class="fa-solid fa-laptop"></i>
+                        <br>
+                        <i class="fa-duotone fa-phone"></i>
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <i class="fa-regular fa-fire"></i>
+                        <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html>
